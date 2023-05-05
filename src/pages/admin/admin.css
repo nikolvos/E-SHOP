@@ -1,0 +1,46 @@
+.admin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .item {
+    width: 350px;
+    height: 125px;
+    display: flex;
+  
+    align-items: center;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    margin: 30px;
+  }
+  
+  .item img {
+    width: 100px;
+  }
+  
+  .item .description {
+    width: 100%;
+    font-size: 30px;
+  }
+
+  .trash:hover{
+    cursor: pointer;
+}
+  
+  .addProducts{
+      margin-top: 30px;
+      height: 40px;
+      width: 200px;
+      padding: auto 10px;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+  }
+
+  .addProducts:hover{
+    cursor: pointer;
+    background-color: rgba(94, 246, 109, 0.333);
+  }
+
+  
